@@ -1,0 +1,129 @@
+#prof {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    background-image: url("Free  Computer, Blur, Hazy Background Images, Ultra High Tech Equipment Cool Personality Creative Design Photo Background PNG and Vectors.jfif");
+    background-size: cover;
+    padding: 0;
+    
+
+
+}
+.pro{
+    object-fit: cover;
+    border-radius: 20vw;
+    width: 20vh;
+    margin: 0.5vh;
+    
+}
+
+img {
+    box-shadow: 0 0 46px  rgba(149, 118, 118, 0.5);
+    padding:0;
+  }
+.contact{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    display:flex ;
+    line-height: 200%;
+    flex-direction: column;
+    font-size: 2vw;
+    background-color: #393e46d3;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 2VW;
+    }
+  /* .email{
+
+    padding: 5%;
+  }
+.phone{
+    width: fit-content;
+    padding: 5%;
+}
+.facebook{
+    width: fit-content;
+    padding: 5%;
+} */
+.texto{
+font-size: 2vw;
+}
+.box{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    
+    background-color: #222831c0;
+    width:100% ;
+}
+.welcoming {
+   text-shadow: 0px 0px 19px whitesmoke;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+.intro {
+    padding: 0%;
+    font-size: x-large;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(0deg,#EEEE,#00ADB5);
+}
+
+.projects {
+    padding: 3vw;
+    margin: 0%;
+    font-size: 3vw;
+    width: 50%;
+
+}
+
+.ancor:hover {
+    color: red;
+}
+
+.end {
+    padding: 3%;
+    font-size: 2vw;
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+
+.ancor {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.hello {
+    padding: 3vw;
+    font-size: 2vw;
+    width: 50%;
+
+}
+
+.photo {
+    width: 59%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width:886px)  {
+    .pro{
+        width: 35vh;
+        height:35vh;
+        margin:3vw 5vw 0vw 3vw;
+    }
+    .contact{
+        font-size:2vh;
+    }
+    .welcoming{
+        font-size: 2vh;
+    }
+}

@@ -1,0 +1,338 @@
+
+.search_bar{
+    width: 31.944vw;
+    height: 4.84375vh;
+    font-size:3.5vh;
+    border:3px solid white;
+    padding-left: 20px;
+    border-top-left-radius:30vh ;
+    border-bottom-left-radius:30vh ;
+    background-color:transparent ;
+    color: white;
+    }
+    .sb{
+        margin-left: 4vh;
+        margin-left: 7vw;
+
+    }
+         .fa-solid{
+
+        color: white;
+    } 
+    image{
+        width: 87PX;
+    }
+    .main-row{
+        height: fit-content;
+        margin-top: 105px;
+    }
+    nav{
+    position: sticky;
+    top:0px;
+    width: 100%;
+    height: 15.84375vh;
+    display: block;
+    background:linear-gradient(180deg,#1c2120 60%,black 100%)
+    }
+    .header{
+        text-align: center;
+        display: block;
+        width:100%;
+        height: 192px;
+        background-color:#1d191e;
+   
+    }
+    h2{ border: 3px dotted white;
+        border-radius: 20px;
+        padding: 10px;
+        width: fit-content;
+        background-color: #ff3131;
+        color:white;
+        font-weight: 900px;
+    }
+    h3{
+        font-size:4.4375vh;
+    font-weight: 200;
+    }
+    .list1{
+        width: 100%;
+        height: 130px;
+        display:flex;
+       overflow-x:scroll;
+     
+    }
+    .list2{
+        display: block;
+        width: 100%;
+        justify-content: space-between;
+    white-space: nowrap;
+    overflow-x: scroll;
+        
+    }
+    h3{
+        letter-spacing: 5px;
+        font-weight: 800;
+        margin: 10PX;
+    }
+.product-1{
+    text-align: center;
+    display: inline-block;
+    width:130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-1-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/15.jpg);
+background-size:cover;
+}
+.product-2{
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-2-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/16.jpg);
+background-size:cover;
+}
+.product-3{
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-3-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/17.jpg);
+background-size:cover;
+}
+.product-4{
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-4-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/18.jpg);
+background-size:cover;
+}
+.product-5{
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-5-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/m3.jpg);
+background-size:cover;
+}
+.product-6{
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-6-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/m5.jpg);
+background-size:cover;
+}
+.product-7{
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-7-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/m8.jpg);
+background-size:cover;
+}
+.product-8{
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-8-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/1.jpg);
+background-size:cover;
+}
+.product-9{
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-9-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/2.jpg);
+background-size:cover;
+}
+.product-10{
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+.product-10-image{
+    display: block;
+width:130px ;
+height: 130px;
+margin-left: auto;
+margin-right:auto ;
+background-image: url(imges/2.jpg);
+background-size:cover;
+}
+
+.icon{
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    margin-top: 1.5vh;
+}
+    .fa-phone,.fa-cart-shopping,.fa-user,.fa-bars
+    {
+        cursor: pointer;
+        padding-right: 8vw;
+        font-size: 2.7059vh; 
+        margin-left:60px;
+    margin-bottom: 10vh;}
+    .fa-solid:hover{
+        color:wheat;
+    }
+    .sign{
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+    }
+.logo{
+    display: inline-block;
+   margin-left: 1.1111111%;
+   margin-top:4px; 
+}
+body {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jam {
+    font-size:4.4375vh;
+    font-weight: 200;
+    text-shadow: 0px 0px 12px white;
+    color: white;
+}
+.b{
+    width: 4.944vw;
+        height: 6vh;
+        font-size: 2.84375vh;
+        background-color: transparent;
+       border: 0px;
+       cursor: pointer;
+}
+button:hover{
+font-size: 3.7vh;
+}
+
+.T {
+    font-size: 7.625Vh;
+    color: whitesmoke;
+}
+.logo::first-letter{
+    word-spacing: 0px;
+    font-weight: 200;
+    font-size: 7.7059vh; 
+    text-shadow: 5px 3px gray;
+    color: #ff3131;
+    
+}
+/* .B {
+    word-spacing: 0px;
+    font-weight: 200;
+    font-size: 7.7059vh; 
+    text-shadow: 5px 3px gray;
+    color: #ff3131;
+} */
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:transparent;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .id-card-men{
+    font-weight: bolder;
+    top:155px;
+    left: 100px;
+    position: absolute;
+    display: block;
+    border-radius: 150px;
+    background-color: #1d191e2a;
+
+  }
+ 

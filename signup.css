@@ -1,0 +1,127 @@
+body{
+    background:linear-gradient(180deg,#abb94f 50%,#fff 102%);   
+    background-repeat: no-repeat;
+    background-size: auto;
+ }
+.main{
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 90px;
+ }
+ #logo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ form{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+    font-family: 'Noto Kufi Arabic', sans-serif;
+font-family: 'Noto Serif', serif;
+    padding:0px 25px ;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+ 
+ }
+
+ label{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+    font-weight: bolder;
+    padding: 20px 0px 5px 0px;
+    
+ }
+ .birthday{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+    font-family: 'Noto Kufi Arabic', sans-serif;
+font-family: 'Noto Serif', serif;
+    padding: 5px;
+ }
+ .propic{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:medium ;
+}
+
+ .cpass{
+
+
+    padding:5px ;
+    margin-top:10px ;
+    margin-bottom:10px ;
+ }
+ .pass{
+
+
+    padding:5px ;
+    margin-bottom: 10px;
+ }
+ input {
+
+    text-align: center;
+  }
+  
+  ::-webkit-input-placeholder {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+    text-align: center;
+  }
+ .username{
+    float: right;
+    padding:5px ;
+ }
+ .text{
+    border-radius: 30px;
+    padding-left: 10px;
+    border: 0PX;
+    size:300px;
+    height: 30px; }
+ .btn{
+    margin-top: 10px;
+    border-radius: 30px;
+    padding:10px 10px;
+    border:0px;
+    height: 50px;
+    width: 100px;
+ }
+ .btn:hover{
+    background-color: wheat;
+  }
+
+.ch:checked + label{
+   color: green;
+}
+label{
+   font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+a{
+   
+   text-decoration: none;
+color: black;}
+a:visited{
+   color:purple;
+}
+.text:focus{
+   outline: none;
+   border: 3px solid yellowgreen;
+   background-color: burlywood;
+}
+::selection{
+   background-color: burlywood;
+   color: red;
+
+}

@@ -1,0 +1,80 @@
+body{
+   font-family: 'Noto Kufi Arabic', sans-serif;
+font-size: larger;
+font-weight: bold;
+background:linear-gradient(180deg,#abb94f 50%,#fff 102%);   
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+#logo{
+   display: flex;
+   width: 100px;
+   height: 100px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.form1{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 50px;
+
+}
+input {
+
+   text-align: center;
+ }
+ 
+ ::-webkit-input-placeholder {
+   font-family: 'Noto Kufi Arabic', sans-serif;
+
+   text-align: center;
+ }
+.main{
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:80px ;
+   height: 800px;
+   display: flex;
+   width: 550px;
+   flex-direction: column;
+   text-align: center;
+   padding-top: 100px;
+}
+.Firstname{
+   border-radius: 30px;
+   padding-left: 10px;
+   border:0px;
+   size:300px;
+   height: 30px;
+}
+
+.Secondname{
+   border-radius: 30px;
+   padding-left: 10px;
+   border:0px;
+   margin-top: 10px;
+   size:300px;
+   height: 30px;
+}
+
+.btn{
+   box-shadow: 0px -1px 15px 5px wheat,0px -1px 15px 5px black;
+   margin-top: 10px;
+   border-radius: 30px;
+   padding:10px 10px;
+   border:0px;
+   height: 30px;
+}
+.btn:hover{
+  background-color: wheat;
+}
+input:focus{
+   border: 3px solid black;
+}
+::selection{
+   background-color: burlywood;
+   color: red;
+
+}
